@@ -1,0 +1,364 @@
+@media screen and (max-width: 800px) {
+
+
+    .header{
+        background-image: none;
+    }
+
+    .container{
+        padding: 0px 25px;
+    }
+    .header__title{
+        font-size: 28px;
+        text-align: left;
+        width: 75%;
+    }
+
+
+    .nav-list {
+        margin-left: 0;
+    }
+    .menu_btn {
+        display: flex;
+        position: fixed;
+        z-index: 10;
+        margin-right: 14%;
+        margin-top: -5%;
+    }
+    .nav-list {
+        position: absolute;
+        z-index: 5;
+        background-color: #CEA684;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        padding-top: 150px;
+        height: 50vh;
+        right: 0;
+        bottom: 0;
+        align-items: center;
+        transform: translateY(-100%);
+        transition: transform .3s ease;
+        gap: 20px;
+    }
+    .nav-list__item {
+        z-index: 4;
+    }
+    .nav-list.nav-lixt__link--active{
+        transform: translateY(0%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .header__content{
+        align-items: baseline;
+    }
+
+    .button--huge{
+        font-size: 18px;
+        padding: 5% 2.06% 5% 2.06%;
+        width: 210px;
+    }
+
+    .section__header{
+        padding-right: 6% 5.06% 6% 5.06%;
+    }
+
+    .title-1{
+        padding-right: 30%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .button--hug{
+        font-size: 18px;
+        width: 230px;
+        margin-left: -5%;
+        padding: 2% 0.2%;
+    }
+
+    .section__book--popular{
+        margin: 0px;
+        margin-top: 20%;
+        margin-left: -5%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .button--huges{
+        font-size: 18px;
+        width: 230px;
+        margin-top: 20%;
+        margin-left: -1%;
+        padding: 2% 0.2%;
+    }
+
+    .about-wrap{
+        display: grid;
+    }
+
+    .about__img{
+        position: relative;
+        width: 265px;
+        height: 290px;
+    }
+
+    .section__title{
+        font-size: 24px;
+        width: 24%;
+    }
+
+    .about__text{
+        text-align: left;
+        width: 22%;
+        font-size: 14px;
+        font-weight: 460;
+    }
+
+    .title-2{
+        padding-right: 30%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .genre{
+        display: none;
+    }
+
+    .bg-img{
+        height: 500px;
+        width: 260px;
+        margin-left: 0px;
+        background-position: left;
+    }
+
+    .nav1{
+        width: 100px; 
+        background: #d9d9d9;
+        margin: 20px auto;
+    }
+
+    .span_geners{
+        height: 90px;
+        width: 100px;
+        position: relative;
+        margin-left: 0%;
+        font-size : 20px;
+        padding-left: 15%;
+        right: 5%;
+    }
+
+    .span_geners::after{
+        float: center;
+        right: 20%;
+        content: "  +";
+    }
+
+    .touch{
+        margin-left: 40%;
+    }
+
+    .slide{
+        margin: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        width: 90%;
+        height: 0px;
+        left: -10%;
+    }
+    .slide li {padding : 10px;}
+
+    .slide2{
+        margin: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        width: 90%;
+        height: 0px;
+        left: -10%;
+    }
+    .slide2 li {padding : 10px;}
+
+    .slide3{
+        margin: 10px;
+        font-size: 13px;
+        font-weight: 500;
+        width: 90%;
+        height: 0px;
+        left: -10%;
+    }
+    .slide3 li {padding : 10px;}
+    
+    
+
+    .title-3{
+        margin: 18px;
+        padding-right: 40%;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    .section__author--popular{
+        margin-top: 23%;
+        margin-left: -2%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .author__title{
+        margin-top: 5%;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .title-4{
+        margin: 18px;
+        padding-right: 53%;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    .section__publish--popular{
+        margin-left: -4%;
+        grid-template-columns: repeat(2, 1fr);
+        padding-right: 27%;
+    }
+
+    .section__publi--popular{
+        margin-left: -4%;
+        grid-template-columns: repeat(2, 1fr);
+        padding-right: 27%;
+    }
+
+    .title-5{
+        padding-right: 20%;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: left;
+    }
+
+
+    .new-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: right;
+        margin: -30%;
+    }
+
+    .button--new{
+        width: 218px;
+        padding-right: 75px;
+        margin-right: 88px;
+    }
+
+    .new__img::before{
+        background-image: none;
+        left: 10px;
+    }
+
+    .text-field__label{
+        margin-bottom: 0.45rem;
+    }
+
+    .text-field__input{
+        width: 170px;
+    }
+    .text-field__input1{
+        width: 170px;
+    }
+    .text-field__input2{
+        width: 170px;
+    }
+
+
+    .title-6{
+        padding-right: 24%;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    .rew-wrap{
+        display: grid;
+        align-items: left;
+    }
+    .rew__img::before{
+        align-items: right;
+        left: 0%;
+    }
+
+    .rew__subtitle{
+        width: 26%;
+    }
+    .rew__location{
+        margin: 5px;
+        line-height: 24px;
+        font-size: 20px;
+        font-weight: 200;
+        width: 35%;
+    }
+
+    .rew1-wrap{
+        margin: 4px;
+        display: grid;
+        align-items: left;
+    }
+    .rew__img1::before{
+        align-items: right;
+        left: 0%;
+    }
+
+    .rew1__subtitle{
+        width: 36%;
+    }
+
+    .rew1__location{
+        line-height: 24px;
+        font-size: 20px;
+        font-weight: 200;
+        width: 32%;
+    }
+
+    .footer{
+        padding: 62px 0;
+    }
+
+    .footer__nav{
+        display: grid;
+    }
+    .footer__coryright{
+        gap: 40%;
+    }
+
+    .footer__socials{
+        gap: 7%;
+        margin: -13px;
+    }
+    .footer__nav-wrapper{
+        gap: 20%;
+        display: grid;
+        padding-top: 30%;
+    }
+
+    .footer__nav-title{
+        font-size: 28px;
+    }
+    
+    .footer__row{
+        gap: 0%;
+        grid-template-columns: repeat(1, auto);
+    }
+    
+}
+

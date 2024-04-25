@@ -1,0 +1,60 @@
+.button{
+    background: #B28E6E;
+    color: black;
+
+}
+
+.button--huge{
+    font-family: 'Inter';
+    font-style: italic;
+    opacity: 0.8;
+    height: 223px;
+    width: 783px;
+    padding: 36px 62px;
+    font-size: 32px;
+    font-weight: 200;
+    border-radius: 44px;
+}
+
+.button--hug{
+    font-family: 'Inter';
+    font-style: italic;
+    opacity: 0.9;
+    height: 86px;
+    width: 711px;
+    padding: 26px 21px;
+    font-size: 32px;
+    font-weight: 200;
+    margin: 0 auto;
+    display: block;
+    border-radius: 21px;
+}
+
+.button--huges{
+    font-family: 'Inter';
+    font-style: italic;
+    opacity: 0.8;
+    height: 73px;
+    width: 511px;
+    padding: 22px 21px;
+    font-size: 32px;
+    font-weight: 200;
+    margin: 0 auto;
+    display: block;
+    border-radius: 21px;
+}
+
+
+.button--new{
+    font-family: 'Inter';
+    opacity: 0.8;
+    height: 56px;
+    width: 250px;
+    padding: 16px 18px;
+    font-size: 23px;
+    background-color: #E92929;
+    color: white;
+    font-weight: 200;
+    margin: 13px auto;
+    display: block;
+}

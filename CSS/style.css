@@ -1,0 +1,829 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Inter:wght@100..900&display=swap');
+@import "./buttons.css";
+
+.body{
+    background-color: #daccc0;
+}
+
+
+.header{
+    padding: 40px 0 150px;
+    height: 800px;
+    color: black;
+    background-image: url('./../images/fon2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.header a{
+    color: black;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 43px;
+}
+
+.container--header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu_btn {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+.test {
+    display: flex;
+    justify-content: flex-end;
+}
+.mobile_span {
+    height: 2px;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+/* Nav */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.logo{
+    flex-shrink: 0;
+}
+
+.test{
+    width: 40px;
+}
+
+/* Nav list */
+
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* content */
+
+.header__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+    align-items: center;
+}
+
+.header__title{
+    font-family: 'KoPub Batang';
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 1;
+}
+
+/* Main */
+
+.title-1{
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1;
+    color: black;
+    text-align: center;
+    font-family: 'KoPub Batang';
+
+}
+
+.main{
+    padding: 32px 0;
+    display: grid;
+    gap: 120px;
+}
+
+
+.section__header{
+    margin-bottom: 64px;
+}
+
+.section__book{
+    display: grid;
+    gap: 32px;
+
+}
+
+.section__book--popular{
+    grid-template-columns: repeat(4, 1fr);
+    margin: 111px;
+}
+
+.book__img{
+    margin-bottom: 9px;
+}
+
+.book__title{
+    color: black;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.book__location{
+    color: black;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.book__location2{
+    color: black;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.book__location3{
+    color: black;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/*About*/
+
+.about-section{
+    padding: 106px 0 145px;
+}
+
+.about-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__img{
+    position: relative;
+    width: 349px;
+    height: 414px;
+}
+
+.about__img::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -30px;
+    width: 100%;
+    height: 100%;
+    background: url(./../images/vina.png) 70%/90% no-repeat;
+}
+
+.about{
+    width: 1000px;
+}
+
+.section__title{
+    color: #B62121;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Inter';
+    letter-spacing: 0.48px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about__title{
+    text-align: left;
+}
+
+.section__subtitle{
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Inter';
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+
+.about__subtitle{
+    text-align: left;
+}
+
+.about__text{
+    line-height: 24px;
+    font-size: 26px;
+    font-weight: 200;
+    font-family: 'Inter';
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+}
+
+.section__subtitle2{
+    color: black;
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'Inter';
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+
+.about__subtitle2{
+    text-align: left;
+}
+
+/* Genre */
+
+.title-2{
+    margin: 44px;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 1;
+    color: black;
+    text-align: center;
+    font-family: 'KoPub Batang';
+}
+
+.genre{
+    font-family: 'KoPub Batang';
+    font-size: 20px;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 490px;
+    gap: 10px;
+}
+
+
+
+li a{
+    text-decoration: none; color:  #2d2f31;
+}
+
+.bg-img{
+    background-image: url(./../images/genre.png);
+    height: 601px;
+    width: 900px;
+    margin-left: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.genres{
+    position: absolute;
+    width: auto;
+    margin: 50px;
+    color: black;
+}
+
+.nav1{
+    width: 100px; 
+    background: #d9d9d9;
+    margin: 40px auto;
+}
+  
+.span_geners{
+    font-family: 'Inter';
+    padding: 15px 130px;
+    background : #B28E6E; 
+    color : black;
+    height: 74px;
+    width: 670px;
+    position: relative;
+    margin-left: 80px;
+    font-size : 36px;
+    border-radius: 23px;
+    font-variant: small-caps;
+    cursor: pointer;
+    display: block;
+}
+  
+.span_geners::after{
+    float: center;
+    right: 20%;
+    content: "  +";
+}
+  
+.slide{
+    margin: 20px;
+    font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 500;
+    clear: both;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    left: -45%;
+    transition: height .4s ease;
+}
+  
+.slide li {padding : 30px;}
+  
+#touch {position: absolute; opacity: 0; height: 0px;}    
+  
+#touch:checked + .slide {height: 300px;} 
+
+.slide2{
+    margin: 20px;
+    font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 500;
+    clear: both;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    left: -45%;
+    transition: height .4s ease;
+}
+  
+.slide2 li {padding : 30px;}
+  
+#touch2 {position: absolute; opacity: 0; height: 0px;}    
+  
+#touch2:checked + .slide2 {height: 300px;} 
+
+.slide3{
+    font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 550;
+    clear: both;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    left: -45%;
+    transition: height .4s ease;
+}
+  
+.slide3 li {padding : 30px;}
+  
+#touch3 {position: absolute; opacity: 0; height: 0px;}    
+  
+#touch3:checked + .slide3 {height: 300px;} 
+
+
+/* Author */
+
+.title-3{
+    margin: 49px;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 1;
+    color: black;
+    text-align: center;
+    font-family: 'KoPub Batang';
+}
+
+.main1{
+    padding: 32px 0;
+    display: grid;
+    gap: 120px;
+}
+
+
+.section__author{
+    display: grid;
+    gap: 32px;
+}
+
+.section__author--popular{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.author__img{
+    margin-bottom: 3px;
+}
+
+.author__title{
+    color: black;
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Publishes */
+
+.title-4{
+    margin: 33px;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 1;
+    color: black;
+    text-align: center;
+    font-family: 'KoPub Batang';
+}
+
+.main2{
+    padding: 32px 0;
+    display: grid;
+    gap: 120px;
+}
+
+
+.section__publish{
+    display: grid;
+    gap: 32px;
+    margin-bottom: 114px;
+}
+
+.section__publish--popular{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.publish__img{
+    margin-bottom: 3px;
+}
+
+.section__publi{
+    display: grid;
+    gap: 32px;
+    margin-left: 80px;
+}
+
+.section__publi--popular{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.publi__img{
+    margin-bottom: 3px;
+}
+
+/* New */
+
+.title-5{
+    margin: 33px;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 1;
+    color: black;
+    text-align: center;
+    font-family: 'KoPub Batang';
+}
+
+
+.new-section{
+    padding: 106px 0 145px;
+}
+
+.new-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new__img{
+    position: relative;
+    width: 349px;
+    height: 414px;
+}
+
+.new__img::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 230px;
+    width: 100%;
+    height: 100%;
+    background: url(./../images/books.png) 70%/90% no-repeat;
+}
+
+/* установим отступ 1rem от нижнего края элемента */
+.new{
+    margin-bottom: 1rem;
+    margin: 6rem;
+}
+  /* стили для label */
+.text-field__label{
+    display: block;
+    margin-bottom: 0.25rem;
+}
+  /* стили для input */
+.text-field__input{
+    display: block;
+    width: 310px;
+    height: calc(2.25rem + 2px);
+    padding: 0.100rem 0.80rem;
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #B28E6E;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.44rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text-field__input:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.text-field__label1{
+    display: block;
+    margin-bottom: 0.25rem;
+}
+  /* стили для input */
+.text-field__input1{
+    display: block;
+    width: 310px;
+    height: 2.25rem;
+    padding: 0.1000rem 0.75rem;
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #B28E6E;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.44rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text-field__input1:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.text-field__label2{
+    display: block;
+    margin-bottom: 0.25rem;
+}
+  /* стили для input */
+.text-field__input2{
+    display: block;
+    width: 310px;
+    height: calc(2.25rem + 4px);
+    padding: 0.100rem 0.75rem;
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #B28E6E;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.44rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text-field__input2:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+/* Rew */
+
+.title-6{
+    margin: 33px;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 1;
+    color: black;
+    text-align: center;
+    font-family: 'KoPub Batang';
+}
+
+.rew-section{
+    padding: 106px 0 145px;
+}
+
+.rew-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rew__img{
+    position: relative;
+    width: 110px;
+    height: 100px;
+}
+
+.rew__img::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 240px;
+    width: 100%;
+    height: 100%;
+    background: url(./../images/nik1.png) 70%/90% no-repeat;
+}
+
+.rew{
+    width: 1000px;
+}
+
+.rew-section{
+    padding: 120px 0 145px;
+}
+
+.rew{
+    width: 700px;
+}
+
+.section__rew{
+    color: black;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'KoPub Batang';
+    letter-spacing: 0.48px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.rew__title{
+    text-align: left;
+}
+
+.section__subrew{
+    color: black;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'KoPub Batang';
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+
+.rew__subtitle{
+    text-align: left;
+    color: black;
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'KoPub Batang';
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+
+.rew__location{
+    margin: 10px;
+    line-height: 24px;
+    font-size: 26px;
+    font-weight: 200;
+    font-family: 'Inter';
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+}
+
+
+.rew1-section{
+    padding: 106px 0 145px;
+}
+
+.rew1-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rew__img1{
+    position: relative;
+    width: 110px;
+    height: 100px;
+}
+
+.rew__img1::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 240px;
+    width: 100%;
+    height: 100%;
+    background: url(./../images/nik2.png) 70%/90% no-repeat;
+}
+
+.rew1{
+    width: 1000px;
+}
+
+.rew1-section{
+    padding: 120px 0 145px;
+}
+
+.rew1{
+    width: 700px;
+}
+
+.section__rew1{
+    color: black;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'KoPub Batang';
+    letter-spacing: 0.48px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.rew1__title{
+    text-align: left;
+}
+
+.section__subrew1{
+    color: black;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'KoPub Batang';
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+
+.rew1__subtitle{
+    text-align: left;
+    color: black;
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'KoPub Batang';
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+
+.rew1__location{
+    margin: 10px;
+    line-height: 24px;
+    font-size: 26px;
+    font-weight: 200;
+    font-family: 'Inter';
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+}
+
+/* Footer */
+
+.footer{
+    padding: 91px 0px;
+    background-color: #CEA684;
+}
+
+.footer__row{
+    display: grid;
+    gap: 200px;
+    grid-template-columns: repeat(2, auto);
+}
+
+.footer__copyright{
+    display: grid;
+    gap: 100px;
+}
+
+.footer__socials{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+/* Footer Nav */
+
+.footer__nav-wrapper{
+    display: flex;
+    gap: 240px;
+}
+
+.footer__nav{
+    display: grid;
+    grid-template: 16px;
+
+}
+
+.footer__nav-title{
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.footer__nav-list{
+    display: grid;
+    grid-template: 14px;
+}
+
+.footer__nav-link{
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 600;
+}
